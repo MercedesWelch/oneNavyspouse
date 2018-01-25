@@ -1,0 +1,91 @@
+h1 {
+	color: navy;
+}
+
+.main-nav {
+	width: 100%;
+	background: cream;
+	min-height: 30px;
+	padding: 0;
+	position: fixed;
+
+	/*text-align: center;*/
+}
+
+.name {
+	color:red;
+}
+
+li:hover {
+	background-color: #ddd;
+	color: #fff;
+}
+
+/*this is for the navigation bar*/
+ul {
+	list-style-type: none;
+	margin: 5px;
+	padding: 20px;
+}
+
+li {
+	display: inline-block;
+	margin: 10px;
+	border: solid lightblue 1px;
+}
+/* this makes the background img responsive*/
+img {
+	width: 100%;
+	height: auto;
+    opacity: 50%;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    height:10px;
+}
+/* this is for comments*/
+
+
+/* use this code to change out the colors of your links- want to go for a blue and gold theme?
+<style>
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+*/
+/* this is to make an image be a half page cover */
+/*.bg {
+    /* The image used  <img src="https://loremflickr.com/320/240" http://goo.gl/images/nEfHR4/> */
+    background-image: url("https://loremflickr.com/320/240");
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
